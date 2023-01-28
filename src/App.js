@@ -1,5 +1,6 @@
 
 import Container from './Components/UI/Container/Container';
+import PlannerHeader from './Components/PlannerDate/PlannerHeader';
 
 import './App.css';
 
@@ -7,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <Container>
-      <h1>Hello</h1>
+      <PlannerHeader date = {new Date()} />
     </Container>
   );
 }
