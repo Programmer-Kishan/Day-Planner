@@ -1,0 +1,19 @@
+
+.planner-form {
+    padding: 10px;
+}
+
+.planner-form h3 {
+    margin: 15px 0 15px;
+    font-size: 1.3rem;
+}
+
+.planner-form input {
+    width: 100%;
+    padding: 4px;
+    font-size: 1.1rem;
+}
+
+.planner-form input:focus {
+    background-color: #ff8731;
+}
