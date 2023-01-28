@@ -1,0 +1,11 @@
+.container {
+    width: 30vw;
+    height: 72vh;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 110px;
+    left: 35%;
+}
