@@ -1,3 +1,4 @@
+import styles from './CurrentDate.module.css';
 
 const CurrentDate = (props) => {
 
@@ -6,7 +7,7 @@ const CurrentDate = (props) => {
     const year = props.date.getFullYear();
 
     return (
-        <div>
+        <div className={styles.date}>
             <p>{day}/{month+1}/{year}</p>
         </div>
     );

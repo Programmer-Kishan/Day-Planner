@@ -9,9 +9,7 @@ const PlannerHeader = (props) => {
 
     return (
         <div className={styles["header-format"]}>
-            <div>
-                <h2>{days[props.date.getDay()]}</h2>
-            </div>
+            <h2>{days[props.date.getDay()]}</h2>
             <CurrentDate date = {props.date} />
         </div>
     );

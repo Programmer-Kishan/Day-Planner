@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap');
 
 .header-format {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.header-format h2 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
 }

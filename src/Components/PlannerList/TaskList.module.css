@@ -1,0 +1,22 @@
+
+.list-box {
+    height: 55%;
+    overflow-y: auto;
+}
+
+.list-box::-webkit-scrollbar {
+    width: 5px;
+}
+
+.list-box::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #2b5876, #4e4376);
+    border-radius: 10px;
+}
+
+.list-box::-webkit-scrollbar-track-piece:start {
+    margin-top: 20px;
+}
+
+.list-box::-webkit-scrollbar-track-piece:end {
+    margin-bottom: 20px;
+}

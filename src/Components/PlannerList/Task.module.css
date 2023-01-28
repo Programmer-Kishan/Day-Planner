@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.task-box {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right,
+    #f46b45,
+    #eea849);
+    margin: 20px 0;
+}
+
+.task-box p {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.task-box .icon-list {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.task-box .icon-list .icon:nth-child(odd) {
+    color: red;
+    cursor: pointer;
+}
+
+.task-box .icon-list .icon:nth-child(even) {
+    color: green;
+    cursor: pointer;
+}
