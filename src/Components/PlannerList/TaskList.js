@@ -3,17 +3,15 @@ import Task from './Task';
 
 import styles from './TaskList.module.css';
 
-const TaskList = () => {
+const TaskList = (props) => {
     return (
         <div className={styles["list-box"]}>
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
+            {props.tasks.map((curTask) => (
+                <Task
+                    key={curTask.id}
+                    task={curTask.task}
+                />
+            ))}
         </div>
     )
 }
