@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap');
 
 .list-box {
     height: 55%;
     overflow-y: auto;
+}
+
+.list-box .empty {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    color: #a9a9a9;
 }
 
 .list-box::-webkit-scrollbar {
@@ -20,3 +27,4 @@
 .list-box::-webkit-scrollbar-track-piece:end {
     margin-bottom: 20px;
 }
+
