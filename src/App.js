@@ -17,10 +17,17 @@ function App() {
 
   const [tasks, setTasks] = useState(INITAL_DATA);
 
+  const addTask = (enteredTask) => {
+    const newTask = {task: enteredTask, id: tasks.length+1};
+    setTasks((prevTask) => (
+      [...prevTask, newTask]
+    ));
+  }
+
   return (
     <Container>
       <PlannerHeader date = {new Date()} />
-      <PlannerForm />
+      <PlannerForm onAddTask = {addTask}/>
       <TaskList tasks = {tasks}/>
     </Container>
   );
