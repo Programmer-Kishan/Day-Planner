@@ -19,6 +19,7 @@ function App() {
   const [isEmpty, setIsEmpty] = useState(false);
 
   const addTask = (enteredTask) => {
+    if (tasks.length === 0) { setIsEmpty(false); }
     const newTask = {task: enteredTask, id: Math.random()};
     setTasks((prevTask) => (
       [...prevTask, newTask]
