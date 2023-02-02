@@ -15,6 +15,7 @@ const TaskList = (props) => {
                     id={curTask.id}
                     task={curTask.task}
                     onDelete={props.onDeleteTask}
+                    onEdit={props.onEditTask}
                 />
             ))}
             {props.isEmpty && emptyContent}

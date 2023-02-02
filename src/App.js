@@ -33,11 +33,26 @@ function App() {
     setIsEmpty(newTasks.length === 0 ? true : false);
   }
 
+  const editTask = (taskId, editedTask) => {
+    const editedTaskSet = tasks.map(curTask => {
+      if(curTask.id === taskId) {
+        curTask.task = editedTask;
+      }
+      return curTask;
+    });
+    setTasks(editedTaskSet);
+  }
+
   return (
     <Container>
       <PlannerHeader date={new Date()} />
       <PlannerForm onAddTask={addTask}/>
-      <TaskList tasks={tasks} onDeleteTask={deleteTask} isEmpty={isEmpty}/>
+      <TaskList 
+        tasks={tasks} 
+        onDeleteTask={deleteTask} 
+        onEditTask={editTask}
+        isEmpty={isEmpty}
+      />
     </Container>
   );
 }
