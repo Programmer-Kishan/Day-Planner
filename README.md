@@ -38,3 +38,6 @@ npm start
 ![Screenshot (14)](https://github.com/Programmer-Kishan/Day-Planner/assets/69651170/90fa55ae-6c65-4d25-8dcd-317ee446d44e)
 ![Screenshot (15)](https://github.com/Programmer-Kishan/Day-Planner/assets/69651170/7d0b26be-a02d-430d-be2b-6d3ade68fe87)
 ![Screenshot (16)](https://github.com/Programmer-Kishan/Day-Planner/assets/69651170/45ddfd49-36c7-4012-9913-cde1983e02bf)
+
+## Video of the application
+https://github.com/Programmer-Kishan/Day-Planner/assets/69651170/61bddf6f-d052-4150-90f5-69c00ee55425
